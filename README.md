@@ -70,7 +70,6 @@ Authenticity assessments extend the Umanitek Guardian dataset with structured fa
                        +-------------------+
 ```
 
-```
 
 ---
 
@@ -98,7 +97,6 @@ The result is returned to the user along with the Knowledge Asset UAL for refere
 
 ## **📦 Repository structure**
 
-```
 
 alle-labs/
 packages/
@@ -114,7 +112,7 @@ x402.ts
 dkgPublish.ts
 package.json
 
-```
+
 detection-worker/
   src/
     main.py
@@ -125,7 +123,7 @@ detection-worker/
       hashing.py
       scoring.py
   requirements.txt
-```
+
 
 schemas/
 authenticity_asset.jsonld
@@ -137,9 +135,6 @@ api-reference.md
 
 README.md
 
-````
-
----
 
 ## **📘 Knowledge Asset format**
 
@@ -160,7 +155,6 @@ Example authenticity Knowledge Asset created by Alle Labs:
 }
 ````
 
----
 
 ## **⚙️ MCP tools**
 
