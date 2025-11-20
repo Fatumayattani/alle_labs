@@ -97,44 +97,41 @@ The result is returned to the user along with the Knowledge Asset UAL for refere
 
 ## **📦 Repository structure**
 
-``
 alle-labs/
-packages/
-alle-mcp-plugin/
-src/
-mcpServer.ts
-tools/
-runAuthenticityCheck.ts
-getReportByHash.ts
-utils/
-knowledgeAsset.ts
-x402.ts
-dkgPublish.ts
-package.json
+├── packages/
+│   ├── alle-mcp-plugin/
+│   │   ├── src/
+│   │   │   ├── mcpServer.ts
+│   │   │   ├── tools/
+│   │   │   │   ├── runAuthenticityCheck.ts
+│   │   │   │   └── getReportByHash.ts
+│   │   │   └── utils/
+│   │   │       ├── knowledgeAsset.ts
+│   │   │       ├── x402.ts
+│   │   │       └── dkgPublish.ts
+│   │   └── package.json
+│   │
+│   └── detection-worker/
+│       ├── src/
+│       │   ├── main.py
+│       │   ├── models/
+│       │   │   └── deepfake_model.py
+│       │   └── utils/
+│       │       ├── media_loader.py
+│       │       ├── hashing.py
+│       │       └── scoring.py
+│       └── requirements.txt
+│
+├── schemas/
+│   ├── authenticity_asset.jsonld
+│   └── context.json
+│
+├── docs/
+│   ├── architecture.md
+│   └── api-reference.md
+│
+└── README.md
 
-
-detection-worker/
-  src/
-    main.py
-    models/
-      deepfake_model.py
-    utils/
-      media_loader.py
-      hashing.py
-      scoring.py
-  requirements.txt
-
-
-schemas/
-authenticity_asset.jsonld
-context.json
-
-docs/
-architecture.md
-api-reference.md
-
-README.md
-``
 
 ## **📘 Knowledge Asset format**
 
