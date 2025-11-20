@@ -5,6 +5,8 @@ Alle Labs is an AI powered truth engine that detects deepfakes, verifies media a
 
 Alle Labs helps people and machines uncover truth in an internet full of synthetic media. It turns authenticity checks into permanent, queryable truth records that agents can reuse, cite, and trust.
 
+This project is build for **Scaling trust in the age of AI. Global Hackathon - Supported by OriginTrail x Polkadot x Umanitek**
+
 ---
 
 ## **✨ Key features**
