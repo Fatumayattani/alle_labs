@@ -29,8 +29,6 @@ Authenticity assessments extend the Umanitek Guardian dataset with structured fa
 ## **🛠️ Architecture**
 
 ```
-
-```
                      +------------------------+
                      |      User or Agent     |
                      |  (DKG Agent UI or MCP) |
