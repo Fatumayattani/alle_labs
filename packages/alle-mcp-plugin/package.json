@@ -1,0 +1,20 @@
+{
+  "name": "alle-mcp-plugin",
+  "version": "1.0.0",
+  "description": "Alle Labs MCP plugin for media authenticity verification and DKG publishing",
+  "main": "src/mcpServer.ts",
+  "type": "commonjs",
+  "scripts": {
+  "start": "node -r ts-node/register src/mcpServer.ts",
+  "dev": "nodemon -r ts-node/register src/mcpServer.ts"
+},
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
